@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Ativar o JS mesmo se o Usuário esteja com o Browser em JS desabilitado-->
+  <script>document.documentElement.className += ' js';</script>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Animais Fantásticos</title>
+  <title>Animais Fantásticos
+    
+  </title>
 </head>
 <body>
-  <header class="header">
+  <header class="header js-menu">
     <nav class="navigation">
       <ul>
         <li><a href="#animais">Animais</a></li>
@@ -23,9 +27,9 @@
 
   <main class="main">
     <!-- animais -->
-    <section class="grid-section animais" id="animais">
+    <section class="grid-section animais js-scroll" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu">
         <li>
           <img src="./img/imagem1.jpg" alt="">
         </li>
@@ -46,7 +50,7 @@
         </li>
       </ul>
 
-      <article  class="animais-descricao">
+      <article  class="animais-descricao js-tabcontent">
         <div>
           <h2>Raposa</h2>
           <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
@@ -92,9 +96,9 @@
     </section>
 
     <!-- Faq -->
-    <section class="grid-section faq" id="faq">
+    <section class="grid-section faq js-scroll" id="faq">
       <h1 class="titulo">Faq</h1>
-      <dl class="faq-lista">
+      <dl class="faq-lista js-accordion">
         <dt>Qual a idade dos animais?</dt>
         <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, reiciendis.</dd>
         <dt>Eles são fantásticos?</dt>
@@ -107,7 +111,7 @@
     </section>
 
     <!-- Contato -->
-    <section class="grid-section contato" id="contato">
+    <section class="grid-section contato js-scroll" id="contato">
       <h1 class="titulo">Contato</h1>
       <article class="mapa">
         <img src="img/mapa.png" alt="">
