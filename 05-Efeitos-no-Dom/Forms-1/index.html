@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+
+  <style>
+    label{
+      display: block;
+      font-weight: bold;
+      margin-bottom: .5rem;
+      margin-top: 1rem;
+    }
+
+    form{
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    input[type="text"], textarea{
+      width: 100%;
+      padding: .5rem;
+      border: 2px solid #000;
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    textarea{
+      height: 150px;
+    }
+
+    .invalido{
+     border-color: red; 
+    }
+  </style>
+
+  <form action="contato" id="contato">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required>
+    <span class="erro"></span>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    <span class="erro"></span>
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem"></textarea>
+    <select name="cores" id="cores">
+      <option value="blue">Azul</option>
+      <option value="red">Vermelho</option>
+    </select>
+    <input type="color">
+    <input type="date">
+    <input type="number">
+    <input type="range">
+    <input type="password">
+  </form>
+  
+  <script>
+    const contato = document.querySelector('#contato');
+    const dados = {};
+
+    function handleChange(event){  
+      console.log(event.target.name);
+      dados[event.target.nome] = event.target.value;
+
+    };
+    contato.addEventListener('keyup', handleKeyUp);
+  </script>
+
+<!-- 
+<script>
+  const contato = document.querySelector('#contato');
+  const text = document.querySelector('.text');
+  function handleKeyUp(event){  
+    const target = event.target;
+
+    if(!target.checkValidity()){
+      target.classList.add('invalido');
+      contato.nome.setCustomValidity('Nome é totalmente necessário');
+      target.nextElementSibling.innerText = target.validationMessage;
+    }
+
+    console.log(event.target.checkValidity());
+    console.log(event.target.value);
+    texto.innerText = event.target.value;
+  };
+  contato.addEventListener('keyup', handleKeyUp);
+</script> -->
+</body>
+</html>
+
