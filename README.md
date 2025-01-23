@@ -13,8 +13,8 @@ Aqui estão registrados os projetos, exercícios e anotações realizadas durant
 
 **O que estou aprendendo 🚀**
 
--   Fundamentos do JavaScript: Variáveis, funções, estruturas de controle, arrays e objetos.
--   Programação Moderna com ES6: Arrow functions, template strings, modules, destructuring, e muito mais.
+-   *Fundamentos do JavaScript*: Variáveis, funções, estruturas de controle, arrays e objetos.
+-   *Programação Moderna com ES6*: Arrow functions, template strings, modules, destructuring, e muito mais.
 -   Lorem
 -   Lorem
 </p>
@@ -23,6 +23,6 @@ Aqui estão registrados os projetos, exercícios e anotações realizadas durant
 
 <p>
 Meu objetivo é me aprofundar no JavaScript, dominando suas principais funcionalidades e práticas modernas. 
-Com este aprendizado, quero criar aplicações web mais completas e avançadas, além de desenvolver habilidades fundamentais para projetos.
+Com este aprendizado, quero criar aplicações web mais completas e avançadas, além de desenvolver habilidades fundamentais para projetos e da um UP na carreira.
 </p>
 
