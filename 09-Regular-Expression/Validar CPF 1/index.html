@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+  <style>
+    label {
+      display: block;
+      font-family: 'IBM Plex Mono';
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+    }
+
+    input.erro {
+      border-color: red;
+    }
+
+    input{
+      width: 100%;
+      padding: 5px;
+      border: 2px solid black;
+      font-size: 1em;
+      box-sizing: border-box;
+    }
+    input::placeholder {
+      color: rgb(0, 0, 0, 0.2);
+    }
+  </style>
+
+  <form action="">
+    <label for="cpf">CPF</label>
+    <input type="text" name="cpf" id="cpf"  placeholder="***.***.***-**"/>
+    <label for="cpf">Email</label>
+    <input type="text" name="email" id="email"  placeholder="email@gmail.com"/>
+    <script type="module" src="script.js"></script>
+  </form>
+  
+</body>
+</html>
