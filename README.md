@@ -16,7 +16,7 @@ Aqui estão registrados os projetos, exercícios e anotações realizadas durant
 -   **Programação Moderna com ES6**: Arrow functions, template strings, modules, destructuring, e muito mais.
 </p>
 
-Outro repositório utilizando também:
+Outro repositório utilizando também:<br>
 JavaScrip: https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id <br>
 Slide: https://github.com/GabrielAlvesGit/Slide <br>
 Animais Fantásticos: https://github.com/GabrielAlvesGit/Animais-Fantasticos <br>
