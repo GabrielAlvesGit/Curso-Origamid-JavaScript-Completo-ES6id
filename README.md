@@ -17,9 +17,9 @@ Aqui estão registrados os projetos, exercícios e anotações realizadas durant
 </p>
 
 Outro repositório utilizando também:
-JavaScrip: https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id,
-Slide: https://github.com/GabrielAlvesGit/Slide
-Animais Fantásticos: https://github.com/GabrielAlvesGit/Animais-Fantasticos
+JavaScrip: https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id <br>
+Slide: https://github.com/GabrielAlvesGit/Slide <br>
+Animais Fantásticos: https://github.com/GabrielAlvesGit/Animais-Fantasticos <br>
 
 ## Por que estou fazendo este curso? 
 
