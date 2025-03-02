@@ -14,9 +14,12 @@ Aqui estão registrados os projetos, exercícios e anotações realizadas durant
 
 -   **Fundamentos do JavaScript**: Variáveis, funções, estruturas de controle, arrays e objetos.
 -   **Programação Moderna com ES6**: Arrow functions, template strings, modules, destructuring, e muito mais.
--   Lorem
--   Lorem
 </p>
+
+Outro repositório utilizando também:
+JavaScrip: https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id,
+Slide: https://github.com/GabrielAlvesGit/Slide
+Animais Fantásticos: https://github.com/GabrielAlvesGit/Animais-Fantasticos
 
 ## Por que estou fazendo este curso? 
 

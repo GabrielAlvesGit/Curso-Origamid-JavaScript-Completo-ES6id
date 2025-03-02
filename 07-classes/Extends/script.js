@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Veiculo {
   constructor(rodas) {
     this.rodas = rodas;
@@ -25,7 +25,7 @@ class Moto extends Veiculo {
 
 const honda = new Moto(2, true);
 const civic = new Veiculo(2);
-=======
+
 class Veiculo {
   constructor(rodas) {
     this.rodas = rodas;
@@ -52,4 +52,4 @@ class Moto extends Veiculo {
 
 const honda = new Moto(2, true);
 const civic = new Veiculo(2);
->>>>>>> e23597be1d36b2adcf1b50eb17d1d76a2c3c668d
+
